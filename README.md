@@ -51,6 +51,40 @@ You: Tell me a joke
 
 Bot: Why don’t programmers like nature? Too many bugs 🐛
 
+---
+---
+
+## 🔥 Deep Learning Version
+
+In addition to the basic Naive Bayes model, this project includes a **Deep Learning upgrade** built with TensorFlow/Keras.
+
+### Files
+- `chatbot_dl.py` → trains a neural network (Bag-of-Words → Dense layers → Softmax) and saves the model.
+- `chatbot_infer.py` → loads the saved model for chatting instantly without retraining.
+- `chatbot_model.h5`, `vectorizer.pkl`, `label_encoder.pkl` → generated after training.
+
+### Training
+Run once to train and save the model:
+```bash
+python chatbot_dl.py
+```
+### Inference (Chat)
+After training, use this for faster startup (no retraining):
+```
+python chatbot_infer.py
+```
+### Model
+
+* Input: Bag-of-Words (vectorized user input).
+
+* Hidden layers: Dense layers with ReLU activation + Dropout.
+
+* Output: Softmax over intent classes.
+
+* Optimizer: Adam
+
+* Loss: Categorical Crossentropy
+---
 ## 📌 Future Improvements
 
 * Replace Naive Bayes with Deep Learning (TensorFlow/Keras).
