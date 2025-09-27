@@ -16,7 +16,8 @@ It uses **NLTK, spaCy, scikit-learn, and TensorFlow** to classify intents and ge
 
 ## 📂 Project Structure
 
-```chatbot_project/
+```
+chatbot_project/
 │
 ├── intents.json # Dataset of intents
 ├── chatbot.py # Main chatbot code
