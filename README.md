@@ -15,7 +15,9 @@ It uses **NLTK, spaCy, scikit-learn, and TensorFlow** to classify intents and ge
 ---
 
 ## 📂 Project Structure
+
 chatbot_project/
+
 │
 ├── intents.json # Dataset of intents
 ├── chatbot.py # Main chatbot code
@@ -32,17 +34,21 @@ chatbot_project/
    cd chatbot-project
 2. Create virtual environment (optional).
 3. Install dependencies:
+   ```
    pip install -r requirements.txt
    ```
 4. Run chatbot:
+   ```
    python chatbot.py
    ```
 
 ## ✨ Example
 You: Hi
+
 Bot: Hello!
 
 You: Tell me a joke
+
 Bot: Why don’t programmers like nature? Too many bugs 🐛
 
 ## 📌 Future Improvements
@@ -61,3 +67,5 @@ Built as a learning project with Python + NLP + ML.
 
 
 ---
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
