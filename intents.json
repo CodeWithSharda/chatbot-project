@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "What's up?", "How are you?"],
+      "responses": ["Hello!", "Hi there, how can I help you?", "Hey! Nice to see you."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Good night", "Goodbye", "Catch you later"],
+      "responses": ["Goodbye!", "See you soon!", "Take care!", "Talk to you later."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Much appreciated", "Thanks a lot", "Cheers"],
+      "responses": ["You're welcome!", "No problem!", "Glad to help!", "Anytime!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name?", "Who are you?", "Tell me your name", "Your name?"],
+      "responses": ["I'm your chatbot assistant.", "You can call me ChatBot!", "I'm a Python-powered assistant."]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "What's your age?", "When were you made?"],
+      "responses": ["I'm timeless 😉", "I was created recently using Python!", "Old enough to chat with you."]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who created you?", "Who built you?", "Who made you?"],
+      "responses": ["I was built by a Python developer.", "I was created as a project using NLP and ML."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "Do you know any jokes?"],
+      "responses": ["Why don’t programmers like nature? Too many bugs 🐛.", "I would tell you a joke, but you might not get it."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather?", "Tell me the weather", "Is it hot outside?", "How's the weather today?"],
+      "responses": ["I can't check live weather yet, but it's always sunny in Python land ☀️.", "Why not check a weather app? I'm working on that feature!"]
+    },
+    {
+      "tag": "conversation",
+      "patterns": ["How are you?", "Are you fine?", "What's going on?"],
+      "responses": ["I'm just a bot, but I'm doing great!", "All good here! How about you?"]
+    }
+  ]
+}
